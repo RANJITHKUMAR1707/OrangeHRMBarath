@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+  <configuration>
+
+    <!-- report theme -->
+    <!-- STANDARD, DARK -->
+    <theme>DARK</theme>
+
+    <!-- document encoding -->
+    <!-- defaults to UTF-8 -->
+    <encoding>UTF-8</encoding>
+
+    <!-- protocol for script and stylesheets -->
+    <!-- defaults to https -->
+    <!-- HTTP, HTTPS -->
+    <protocol>HTTPS</protocol>
+
+    <!-- offline report -->
+    <timelineEnabled>true</timelineEnabled>
+    
+    <!-- offline report -->
+    <enableOfflineMode>false</enableOfflineMode>
+    
+    <!-- use thumbnails for base64 images -->
+    <!-- this may slowdown viewing tests -->
+    <thumbnailForBase64>false</thumbnailForBase64>
+
+    <!-- title of the document -->
+    <documentTitle>Orange HRM Report</documentTitle>
+
+    <!-- report name - displayed at top-nav -->
+    <reportName>
+		<![CDATA[
+		<img src = 'C:\Users\bharadwaj.viswanatha\eclipse-workspace1\Framework_Learning\src\test\resources\reports\orangehrm.jpg'/>
+      ]]>
+	</reportName>
+
+    <!-- timestamp format -->
+    <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+
+    <!-- custom javascript -->
+    <js>
+      <![CDATA[
+        $(document).ready(function() {
+            document.getElementsByClassName('logo')[0].style.display='none';
+        });
+      ]]>
+    </js>
+
+    <!-- custom styles -->
+    <css>
+      <![CDATA[
+      .badge-primary {background-color: #fd7e14}
+      .badge-success {background-color: #ff0101}
+      .badge-danger {background-color: #ffff00eb}
+      .badge-default {    background-color: #28a745}
+
+      ]]>
+    </css>
+
+  </configuration>
+</extentreports>

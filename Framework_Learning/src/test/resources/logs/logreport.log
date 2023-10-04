@@ -1,0 +1,39 @@
+2023-10-03 17:21:12 INFO  Extentlogger:18 - On Start program
+2023-10-03 17:21:43 INFO  Extentlogger:31 - deleteadmin->This method execution is started
+2023-10-03 17:21:45 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-10-03 17:21:46 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-10-03 17:21:46 INFO  Extentlogger:36 - Login is Clicked
+2023-10-03 17:21:49 INFO  Extentlogger:36 - Admin is Clicked
+2023-10-03 17:21:49 INFO  Extentlogger:31 - deleteadmin->This method execution is started
+2023-10-03 17:22:07 INFO  Extentlogger:100 - deleteadmin
+2023-10-03 17:22:07 INFO  Extentlogger:100 - deleteadmin
+2023-10-03 17:22:10 INFO  Extentlogger:31 - deleteadmin->This method execution is started
+2023-10-03 17:22:10 INFO  Extentlogger:100 - deleteadmin
+2023-10-03 17:22:10 ERROR Extentlogger:47 - deleteadmin
+2023-10-03 17:22:10 ERROR Extentlogger:47 - java.lang.Error: Unresolved compilation problem: 
+	The field Browser.driver is not visible
+
+2023-10-03 17:22:14 INFO  Extentlogger:31 - verifyurlTC001->This method execution is started
+2023-10-03 17:22:14 INFO  Extentlogger:100 - verifyurlTC001
+2023-10-03 17:22:14 ERROR Extentlogger:47 - verifyurlTC001
+2023-10-03 17:22:14 ERROR Extentlogger:47 - java.lang.Error: Unresolved compilation problem: 
+	The field Browser.driver is not visible
+
+2023-10-03 17:22:16 INFO  Extentlogger:31 - AddAdminuser->This method execution is started
+2023-10-03 17:22:16 INFO  Extentlogger:100 - AddAdminuser
+2023-10-03 17:22:16 INFO  Extentlogger:31 - AddAdminuser->This method execution is started
+2023-10-03 17:22:16 INFO  Extentlogger:100 - AddAdminuser
+2023-10-03 17:22:16 INFO  Extentlogger:31 - AddAdminuser->This method execution is started
+2023-10-03 17:22:16 INFO  Extentlogger:100 - AddAdminuser
+2023-10-03 17:22:16 INFO  Extentlogger:31 - AddAdminuser->This method execution is started
+2023-10-03 17:22:16 INFO  Extentlogger:100 - AddAdminuser
+2023-10-03 17:22:16 ERROR Extentlogger:47 - AddAdminuser
+2023-10-03 17:22:16 ERROR Extentlogger:47 - org.testng.TestNGException: java.util.concurrent.ExecutionException: java.lang.Error: Unresolved compilation problem: 
+	The field Browser.driver is not visible
+
+2023-10-03 17:22:16 INFO  Extentlogger:31 - VerifytheerrormessageonloginpageTC002->This method execution is started
+2023-10-03 17:22:16 INFO  Extentlogger:100 - VerifytheerrormessageonloginpageTC002
+2023-10-03 17:22:16 ERROR Extentlogger:47 - VerifytheerrormessageonloginpageTC002
+2023-10-03 17:22:16 ERROR Extentlogger:47 - java.lang.Error: Unresolved compilation problem: 
+	The field Browser.driver is not visible
+
